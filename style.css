@@ -1,0 +1,288 @@
+/* styles for andreas_01 skin */
+body {
+margin: 0 auto;
+padding: 0;
+font: 76% Verdana,Tahoma,Arial,sans-serif;
+background: #f4f4f4 url('img/bg.gif') top center repeat-y;
+}
+
+#wrap {
+background: #ffffff;
+color: #303030;
+margin: 0 auto;
+width: 760px;
+}
+
+#header {
+clear: both;
+margin: 20px 0 0 0;
+padding: 0;
+height: 45px;
+}
+
+#header div.widget_core_coll_title {
+width: 250px;
+margin: 0 0 10px 0;
+float: left;
+font-size: 105%;
+text-align: left;
+}
+
+#header div {
+width: 500px;
+float: right;
+text-align: center;
+color: #a0a0a0;
+margin: 0 0 10px 0;
+font-size: 0.8em;
+line-height: 1.2em;
+}
+
+#frontphoto {
+margin: 0 0 10px 0;
+border: 0;
+}
+
+#avmenu {
+clear: left;
+float: left;
+width: 150px;
+margin: 0 0 10px 0;
+padding: 0;
+font-size: 0.9em;
+}
+
+#avmenu .bSideItem ul, #avmenu .blog_list ul {	
+list-style: none;
+width: 150px;
+margin: 0 0 20px 0;
+padding: 0;
+font-size: 1.1em;
+}	
+
+#avmenu .bSideItem li, #avmenu .blog_list li {
+margin-bottom: 4px;
+}
+
+#avmenu .bSideItem li a, #avmenu .blog_list li a {
+font-weight: bold;
+height: 20px;
+text-decoration: none;
+color: #505050;
+display: block;
+padding: 6px 0 0 10px;
+background: #f4f4f4;
+border-left: 4px solid #cccccc;
+}	
+	
+#avmenu .bSideItem li a:hover, #avmenu .bSideItem li a.BlogButtonCurr, #avmenu .blog_list li a:hover {
+background: #eaeaea;
+color: #286ea0;
+border-left: 4px solid #286ea0;
+}
+.SearchField {
+  border: 1px solid #888;
+}
+
+.announce {
+margin: 10px 0 10px 0;
+padding: 10px;
+width: 130px;
+color: #505050;
+background-color: #f4f4f4;
+line-height: 1.3em;
+}
+
+#extras {
+float: right;
+width: 120px;
+margin: 0 0 10px 0;
+padding: 0;
+font-size: 0.9em;
+line-height: 1.5em;
+}
+
+#extras p {
+margin: 0 0 1.5em 0;
+}
+
+#extras ul, .announce ul {
+  margin: 0;
+  padding: 0;
+}
+
+#extras li, .announce li {
+  margin: 0;
+  padding-left: 5px;
+  list-style-type: none;
+}
+
+.bSideItem {
+  margin-bottom: 10px;
+}
+.bSideItem h3 {
+  margin-top: 5px;
+}
+
+.bSideItem h4 {
+  margin: 0;
+}
+
+#content {
+margin: 8px 130px 20px 160px;
+border-left: 1px solid #f0f0f0;
+border-right: 1px solid #f0f0f0;
+padding: 0 10px 0 10px;
+line-height: 1.6em;
+text-align: left;
+}
+#content_layout {
+  float: left;
+  width: 100%;
+}
+
+#content h2 {
+font-size: 1.5em;
+margin: 0 0 0.5em 0;
+}
+
+#content img {
+padding: 1px;
+display:inline;
+background: #cccccc;
+border: 4px solid #f0f0f0;
+}
+#content .bSmallPrint img, #content .bComment img {
+  background: none;
+  border: none;
+}
+
+h3 {
+font-size: 1.3em;
+margin: 0 0 10px 0;
+}
+
+a {
+text-decoration: none;
+color: #286ea0;
+}
+
+a:hover {
+text-decoration: underline;
+color: #286ea0;
+}
+
+a img {
+border: 0;
+}
+
+#footer {
+clear: both;
+margin: 0 auto;
+padding: 10px 0 20px 0;
+border-top: 4px solid #f0f0f0;
+width: 760px;
+text-align: center;
+color: #808080;
+font-size: 0.9em;
+}
+
+#footer a {
+color: #808080;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+.left {
+margin: 10px 10px 5px 0;
+float: left;
+}
+
+.right {
+margin: 10px 0 5px 10px;
+float: right;
+}
+
+.textright {
+text-align: right;
+}
+
+.center {
+text-align: center;
+}
+
+.small {
+font-size: 0.8em;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.hide {
+display: none;
+}
+
+.bSmallPrint, div.bCommentSmallPrint {
+  background: #F4F4F4;
+  border-left: 4px solid #cccccc;
+  margin-bottom: 15px;
+  padding: 4px;
+  font-size: 80%;
+  clear: right;
+}
+p.bMore a {
+  font-size: 90%;
+  font-weight: normal;
+}
+div.bCommentSmallPrint {
+  clear: none;
+}
+
+fieldset div.input input[type=text], fieldset div.input textarea {
+  border: 1px solid #888;
+  width: 170px;
+}
+fieldset div.input textarea {
+  width: 300px;
+}
+fieldset {
+  border: none;
+}
+div.bComment, form.bComment {
+  border: none;
+}
+#comment_preview {
+	background-color: #FFF;
+  border: 3px solid #286EA0;
+}
+input.SearchField {
+  width: 145px;
+}
+#avmenu .bSideItem.widget_core_coll_xml_feeds ul li a {
+  display: inline;
+  background: transparent;
+  border: none;
+}
+.bComment textarea {
+	width: auto !important;
+}
+
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #fff;
+	background-color: #cccccc;
+	border-radius: 0px !important;
+	border:1px solid #cccccc !important;
+	cursor: pointer;
+	padding: 1px;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover {
+	opacity: 0.8;
+	background-color: #cccccc;
+}
